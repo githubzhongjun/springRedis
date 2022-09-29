@@ -1,3 +1,4 @@
-#singleServerConfig:
-#  address: redis://192.168.10.100:6379
-#codec: !<org.redisson.codec.JsonJacksonCodec> {}
+singleServerConfig:
+  address: redis://192.168.10.100:6379
+
+codec: !<org.redisson.codec.JsonJacksonCodec> {}
